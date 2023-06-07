@@ -28,11 +28,11 @@ public class Main {
             new DeleteCommand());
 
     public static void main(String[] args) {
-//        MainForm mainF = new MainForm();
-//        mainF.setContentPane(mainF.mainMenu);
-//        mainF.setSize(300, 250);
-//        mainF.setVisible(true);
-//        mainF.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        MainForm mainF = new MainForm();
+        mainF.setContentPane(mainF.mainMenu);
+        mainF.setSize(300, 250);
+        mainF.setVisible(true);
+        mainF.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         mainLoop();
     }
